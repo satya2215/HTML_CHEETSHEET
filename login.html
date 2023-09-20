@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form using java script</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="script1.js"></script>
+</head>
+<body >
+   
+
+    <div class="container">
+        <div id="tt" class="desig"> 
+            <span id="time" ></span>
+           </div>
+        <div class="form">
+            <div class="log"> LOGIN FORM</div>
+            <br>
+            <hr>
+            <hr width="200px" >
+            <form class="frm">
+              <lebel for="username"> User Name</lebel>
+              <br><br>
+              <input name="username" autocomplete="off" type="text" id="txt" placeholder="Name"/>
+              <br><br>
+              <lebel for="password">password</lebel>
+              <br><br>
+              <input name="password" type="password" id="pass"  placeholder="password" onkeyup="passcheak(this.value)"/>
+              <br><br>
+              <lebel for="confirm"> confirm password</lebel>
+              <br><br>
+              <input name="confirm" type="password" id="confirm" placeholder="confirm password"/>
+              <p id="ch">  </p>
+              <br>
+              <div class="chk">
+              <lebel class="cheak"> 8 characters</lebel>
+              <br>
+              <lebel class="cheak"> 1 uppercase</lebel>
+              <br>
+              <lebel class="cheak"> 1 digit</lebel>
+              <br>
+              <lebel class="cheak"> 1 lowercase</lebel>
+              <br>
+              <lebel class="cheak"> 1 special characters</lebel>
+            </div>
+        
+            <button class="btn" onclick="confirmpasswordcheak()"><a href="cheetsheet.html">submit</a> </button>
+        </form>
+        </div>
+    </div>
+</body>
+
+</html>
